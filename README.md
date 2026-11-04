@@ -22,11 +22,11 @@
 
 | 패키지 | 기능 | 주 담당 |
 | --- | --- | --- |
-| shelving_interfaces | 공통 메시지·액션 계약 | 이현민, 변경 시 전원 검토 |
-| shelving_system | FSM, 작업 계획, YAML, 무인반납기, launch | 이현민 |
-| shelving_perception | 서가·빈 공간·트레이 책 탐지와 좌표 변환 | 윤재민 |
-| shelving_navigation | Nav2 이동과 작업 위치 정렬 | 이동준 |
-| shelving_manipulation | 책 파지, 삽입, 그리퍼와 안전 후퇴 | 김도윤 |
+| shelving_interfaces | 공통 메시지·액션 계약 | 통합·시스템 (변경 시 전원 검토) |
+| shelving_system | FSM, 작업 계획, YAML, 무인반납기, launch | 통합·시스템 |
+| shelving_perception | 서가·빈 공간·트레이 책 탐지와 좌표 변환 | 인식 |
+| shelving_navigation | Nav2 이동과 작업 위치 정렬 | 주행 |
+| shelving_manipulation | 책 파지, 삽입, 그리퍼와 안전 후퇴 | **김도윤 (본인)** |
 
 파일 단위 소유권과 협업 경계는 [docs/07_file_ownership.md](docs/07_file_ownership.md)를 기준으로 합니다.
 
