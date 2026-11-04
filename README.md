@@ -33,7 +33,7 @@
 ## 처음 참여할 때
 
 ~~~bash
-cd /home/hymi
+cd ~
 git clone https://github.com/lhm3185/book-shelving-system.git
 cd book-shelving-system
 git lfs install
@@ -61,7 +61,7 @@ rosdep install --from-paths src --ignore-src -r -y
 이미 저장소를 받은 팀원은 새 브랜치를 만들기 전에 main을 최신화합니다.
 
 ~~~bash
-cd /home/hymi/book-shelving-system
+cd ~/book-shelving-system
 git switch main
 git pull --ff-only origin main
 ~~~
